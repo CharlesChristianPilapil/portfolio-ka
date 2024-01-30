@@ -43,6 +43,10 @@
     margin-top: 2rem;
 }
 
+/* .project-detail .other-projects {
+    overflow-x: hidden;
+} */
+
 
 @media (min-width: 400px) {
     .all-projects-head {

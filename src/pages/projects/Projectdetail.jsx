@@ -78,11 +78,14 @@ const Projectdetail = () => {
 
       </div>
 
-      <motion.h1 className='container x-padding'
-        initial={{x: '-100%'}}
-        whileInView={{x: 0, transition: {delay: .2, duration: 1, type: 'spring'}}}
-        viewport={{ once: true }}
-      > Other <span> Projects </span> </motion.h1>
+      <div className='container other-projects'>
+        <motion.h1 className='x-padding'
+          initial={{x: '-100%'}}
+          whileInView={{x: 0, transition: {delay: .2, duration: 1, type: 'spring'}}}
+          viewport={{ once: true }}
+        > Other <span> Projects </span> </motion.h1>
+      </div>
+
 
       <div className="project-wrapper container">
               {projectData.map((entry, index) => {
