@@ -1,3 +1,10 @@
+import advertising from './assets/advertising.png';
+import branding from './assets/branding.png';
+import graphics from './assets/graphicdesign.png';
+import writing from './assets/writing.png';
+
+
+
 export const projects = [
   {
     image: 'https://ih1.redbubble.net/image.2682812314.6562/fposter,small,wall_texture,square_product,600x600.jpg',
@@ -100,3 +107,33 @@ export const projects = [
     date: '2023-10-12',
   },
 ];
+
+export const services = [
+  {
+    id: 1,
+    title: 'Advertising',
+    image: advertising,
+    description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam, nesciunt!'
+  },
+
+  {
+    id: 2,
+    title: 'Branding',
+    image: branding,
+    description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam, nesciunt!'
+  },
+
+  {
+    id: 3,
+    title: 'Designing',
+    image: graphics,
+    description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam, nesciunt!'
+  },
+
+  {
+    id: 4,
+    title: 'Copywriting',
+    image: writing,
+    description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam, nesciunt!'
+  }
+]
