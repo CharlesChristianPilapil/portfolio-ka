@@ -9,6 +9,10 @@
     }
 }
 
+.all-projects, .project-detail {
+    margin-bottom: 5rem;
+}
+
 .project-head-overlay{
     position: absolute;
     border-right: 10px solid var(--mediumcolor);

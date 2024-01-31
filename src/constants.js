@@ -3,6 +3,12 @@ import branding from './assets/branding.png';
 import graphics from './assets/graphicdesign.png';
 import writing from './assets/writing.png';
 
+// social media icons
+import instagram from './assets/instagram.png'
+import facebook from './assets/facebook.png'
+import linkedin from './assets/linkedin.png'
+import github from './assets/github.png'
+import twitter from './assets/twitter.png'
 
 
 export const projects = [
@@ -135,5 +141,37 @@ export const services = [
     title: 'Copywriting',
     image: writing,
     description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam, nesciunt!'
+  }
+]
+
+export const mediaIcons = [
+  {
+    id: 1,
+    image: instagram,
+    name: 'instagram-icon'
+  },
+
+  {
+    id: 2,
+    image: facebook,
+    name: 'facebook-icon'
+  },
+
+  {
+    id: 3,
+    image: linkedin,
+    name: 'linkedin-icon'
+  },
+
+  {
+    id: 4,
+    image: twitter,
+    name: 'twitter-icon'
+  },
+
+  {
+    id: 5,
+    image: github,
+    name: 'github-icon'
   }
 ]

@@ -1,5 +1,5 @@
 import React from 'react'
-import { motion } from 'framer-motion'
+import { delay, motion } from 'framer-motion'
 
 
 const overlayVariant = {
@@ -31,28 +31,27 @@ const Homehero = () => {
                     viewport={{ once: true }}
                 />
                 </h1>
-                <motion.ul
-                    initial={{ y: '100%', opacity: 0}}
-                    whileInView={{ y: 0, opacity: 1,
-                        transition: {
-                            delay: 1,
-                            duration: 1,
-                            type: 'spring'
-                        }
-                    }}
-                    viewport={{ once: true }}
-                >
-                    <li> Game Enthusiast </li>
-                    <li> Graphic Designer </li>
-                    <li> Faker 2.0 </li>
-                </motion.ul>
+                <ul>
+                    <motion.li
+                        initial={{opacity: 0, y: '-100%'}}
+                        whileInView={{opacity: 1, y: 0, transition: {delay: 1, duration: 1}}} viewport={{once:true}}
+                    > Game Enthusiast </motion.li>
+                    <motion.li
+                        initial={{opacity: 0, y: '-100%'}}
+                        whileInView={{opacity: 1, y: 0, transition: {delay: 1, duration: 1}}} viewport={{once:true}}
+                    > Graphic Designer </motion.li>
+                    <motion.li
+                        initial={{opacity: 0, y: '-100%'}}
+                        whileInView={{opacity: 1, y: 0, transition: {delay: 1, duration: 1}}} viewport={{once:true}}
+                    > Faker 2.0 </motion.li>
+                </ul>
 
                 <motion.div className="hero-icons"
-                    initial={{x: '-100%', opacity: 0}}
-                    whileInView={{x: 0, opacity: 1,
+                    initial={{y: '-50%', opacity: 0}}
+                    whileInView={{y: 0, opacity: 1,
                         transition: {
                             delay: 2,
-                            duration: 1.5,
+                            duration: 1,
                             type: 'spring'
                         }
                     }}
