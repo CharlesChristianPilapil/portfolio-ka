@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import { mediaIcons } from '../../constants';
 import { NavLink } from 'react-router-dom';
 
-const service = ['Logo Design', 'Web Graphics', 'Social Media Ads', 'Video Ads', 'Brand Identity Development', 'Brand Guidelines', 'Brand Messaging', 'Advertising Copy'];
+const service = ['Graphic Design', 'Advertising', 'Branding', 'Writing'];
 
 const Footer = () => {
   return (
@@ -32,27 +32,30 @@ const Footer = () => {
             </motion.form>
 
             <div className="contacts">
-              <motion.div className='service'
+
+              <motion.div className='contact'
                 initial={{opacity: 0, y: '2rem'}}
                 whileInView={{opacity: 1, y: 0, transition: {delay: .2, duration: 1, type: 'spring'}}}
                 viewport={{once:true}}
               >
-                {
-                  service.map((entry, index) => {
-                    return(
-                      <motion.h4 key={index}> {entry} </motion.h4> 
-                    )
-                  })
-                }
+                <h4> myemail@gmail.com </h4>
+                <h4> 0000-000-0000 </h4>
               </motion.div>
 
-              <motion.div className='contact'
+              <motion.div className='service'
                 initial={{opacity: 0, y: '2rem'}}
                 whileInView={{opacity: 1, y: 0, transition: {delay: .3, duration: 1, type: 'spring'}}}
                 viewport={{once:true}}
               >
-                <h4> myemail@gmail.com </h4>
-                <h4> 0000-000-0000 </h4>
+                {
+                  service.reverse().map((entry, index) => {
+                    return(
+                      <motion.h4 key={index}
+                        whileHover={{scale: 1.1, originX: 0}}
+                      > {entry} </motion.h4> 
+                    )
+                  })
+                }
               </motion.div>
               
               <motion.div className="icons"
@@ -66,8 +69,8 @@ const Footer = () => {
                   {
                     mediaIcons.map(entry => {
                       return (
-                        <NavLink to='https://ccp-portfolio.netlify.app/' target='_blank'> 
-                          <motion.img src={entry.image} alt={entry.name} key={entry.id}
+                        <NavLink to='https://ccp-portfolio.netlify.app/' target='_blank' key={entry.id}> 
+                          <motion.img src={entry.image} alt={entry.name}
                             whileHover={{ scale: 1.2 }}
                         /> </NavLink> 
                       )

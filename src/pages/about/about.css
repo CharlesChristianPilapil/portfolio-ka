@@ -1,0 +1,63 @@
+.about {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.about-wrapper {
+    display: grid;
+    gap: 3rem;
+}
+
+.about-wrapper img {
+    position: relative;
+}
+
+.about-wrapper .img img {
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+.about .info {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.about .info .detail {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+/* JobTable.css */
+.job-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.job-table th, .job-table td {
+  border-bottom: 2px solid var(--mediumcolor);
+  padding: 8px;
+  text-align: left;
+}
+
+.job-table td {
+    font-size: .8rem;
+}
+
+/* Add border-bottom style for each table row */
+.job-table tr {
+  border-bottom: 1px solid #ddd;
+}
+
+@media (min-width: 724px) {
+    .about-wrapper {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .job-table td {
+        font-size: 1rem;
+    }
+}
