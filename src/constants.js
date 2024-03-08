@@ -10,10 +10,23 @@ import linkedin from './assets/linkedin.png'
 import github from './assets/github.png'
 import twitter from './assets/twitter.png'
 
+// project images
+import project1 from './assets/project1.png'
+import project2 from './assets/project2.png'
+import project3 from './assets/project3.png'
+import project4 from './assets/project4.png'
+import project5 from './assets/project5.png'
+import project6 from './assets/project6.png'
+import project7 from './assets/project7.png'
+import project8 from './assets/project8.png'
+import project9 from './assets/project9.png'
+import project10 from './assets/project10.png'
+
+
 
 export const projects = [
   {
-    image: 'https://ih1.redbubble.net/image.2682812314.6562/fposter,small,wall_texture,square_product,600x600.jpg',
+    image: project1,
     id: 'A1B2',
     category: ['Graphic Design', 'Ad'],
     title: 'Project1',
@@ -23,7 +36,7 @@ export const projects = [
     date: '2023-01-15',
   },
   {
-    image: 'https://ih1.redbubble.net/image.2682812314.6562/fposter,small,wall_texture,square_product,600x600.jpg',
+    image: project2,
     id: 'C3D4',
     category: ['Web Development', 'Portfolio'],
     title: 'Project2',
@@ -33,7 +46,7 @@ export const projects = [
     date: '2023-02-20',
   },
   {
-    image: 'https://ih1.redbubble.net/image.2682812314.6562/fposter,small,wall_texture,square_product,600x600.jpg',
+    image: project3,
     id: 'E5F6',
     category: ['App Development', 'Mobile'],
     title: 'Project3',
@@ -43,7 +56,7 @@ export const projects = [
     date: '2023-03-10',
   },
   {
-    image: 'https://ih1.redbubble.net/image.2682812314.6562/fposter,small,wall_texture,square_product,600x600.jpg',
+    image: project4,
     id: 'G7H8',
     category: ['Photography', 'Nature'],
     title: 'Project4',
@@ -53,7 +66,7 @@ export const projects = [
     date: '2023-04-05',
   },
   {
-    image: 'https://ih1.redbubble.net/image.2682812314.6562/fposter,small,wall_texture,square_product,600x600.jpg',
+    image: project5,
     id: 'I9J0',
     category: ['Video Editing', 'Short Film'],
     title: 'Project5',
@@ -63,7 +76,7 @@ export const projects = [
     date: '2023-05-20',
   },
   {
-    image: 'https://ih1.redbubble.net/image.2682812314.6562/fposter,small,wall_texture,square_product,600x600.jpg',
+    image: project6,
     id: 'K1L2',
     category: ['UI/UX Design', 'Website'],
     title: 'Project6',
@@ -73,7 +86,7 @@ export const projects = [
     date: '2023-06-15',
   },
   {
-    image: 'https://ih1.redbubble.net/image.2682812314.6562/fposter,small,wall_texture,square_product,600x600.jpg',
+    image: project7,
     id: 'M3N4',
     category: ['Digital Marketing', 'Social Media'],
     title: 'Project7',
@@ -83,7 +96,7 @@ export const projects = [
     date: '2023-07-02',
   },
   {
-    image: 'https://ih1.redbubble.net/image.2682812314.6562/fposter,small,wall_texture,square_product,600x600.jpg',
+    image: project8,
     id: 'O5P6',
     category: ['Animation', 'Cartoon'],
     title: 'Project8',
@@ -93,7 +106,7 @@ export const projects = [
     date: '2023-08-18',
   },
   {
-    image: 'https://ih1.redbubble.net/image.2682812314.6562/fposter,small,wall_texture,square_product,600x600.jpg',
+    image: project9,
     id: 'Q7R8',
     category: ['E-commerce', 'Product Design'],
     title: 'Project9',
@@ -103,7 +116,7 @@ export const projects = [
     date: '2023-09-25',
   },
   {
-    image: 'https://ih1.redbubble.net/image.2682812314.6562/fposter,small,wall_texture,square_product,600x600.jpg',
+    image: project10,
     id: 'S9T0',
     category: ['Writing', 'Blog'],
     title: 'Project10',

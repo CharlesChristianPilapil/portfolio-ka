@@ -7,7 +7,7 @@ const Navbar = () => {
     <nav>
       <div className="nav-wrapper container x-padding">
         <div className="logo">
-          <h1> <NavLink to=''> K-Adrian. </NavLink> </h1>
+          <h1> <NavLink to=''> [U-Name]. </NavLink> </h1>
         </div>
 
         <div className="nav-links">

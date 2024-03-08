@@ -54,7 +54,7 @@ const About = () => {
           <motion.h1
               initial={{opacity: 0, x: -20}} 
               whileInView={{opacity: 1, x: 0, transition: {delay: .2, duration: 1}}} viewport={{once: true}}
-          > Hi! I'm Miyamoto Musashi </motion.h1>
+          > Hi! I'm [User Name] </motion.h1>
           <div className='detail'>
             <motion.p
               initial={{opacity: 0, x: -20}} 

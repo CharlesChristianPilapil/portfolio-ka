@@ -23,7 +23,7 @@ const Homehero = () => {
         <div className="hero-wrapper">
             <div className='hero-wrapper-box'>
                 <h1> 
-                    K-Adrian 
+                    U-Name
                 <motion.div className="overlay" 
                     variants={overlayVariant}
                     initial='hidden'
